@@ -18,14 +18,18 @@
     font-size: 18px;
 
 }
-.footer ul{
+.quick-links{
     list-style: none;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.footer ul li:hover{
+.quick-links a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
     text-decoration: underline;
 
 }

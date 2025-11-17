@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import { Link } from 'react-router'
 function Footer() {
   return (
     <div className='footer-container'>
@@ -7,11 +8,11 @@ function Footer() {
         <div className='logo'>
           <h2>CodeVerse</h2>
         </div>
-      <ul className='quick-links'>
-         <li>Home</li>
-         <li>Contact</li>
-         <li>About </li>
-      </ul>
+      <div className='quick-links'>
+         <Link to="/" className="color:">Home</Link>
+         <Link to="/contact">Contact</Link>
+         <Link to="/about">About</Link>
+      </div>
 
       </div>
       <div className='copyRights'>
